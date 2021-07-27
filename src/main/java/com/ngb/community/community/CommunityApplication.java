@@ -1,4 +1,4 @@
-package com.nga.community.community;
+package com.ngb.community.community;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
