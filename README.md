@@ -1,9 +1,6 @@
 ##NGA社区
 https://github.com/Luotingwei/NGACommunity GitHub仓库地址
-<<<<<<< HEAD
 
-=======
->>>>>>> f047c70d6492f90c7936f3559d374ec7c31cdb6c
 ##参考资料
 https://spring.io/guides Spring 官方文档
 https://elasticserach.cn/explore 对标地址
