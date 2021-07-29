@@ -1,4 +1,4 @@
-package com.ngb.community.community.contorller;
+package com.ngb.community.contorller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
