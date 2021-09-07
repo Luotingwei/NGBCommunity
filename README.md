@@ -28,7 +28,7 @@ https://www.visual-paradigm.com/ 时序图作图软件
 
 https://mvnrepository.com/ maven仓库
 
-##脚本
+## 脚本
 
 ```sql
 create table USER
