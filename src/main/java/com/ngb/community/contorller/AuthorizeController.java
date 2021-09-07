@@ -56,7 +56,7 @@ public class AuthorizeController {
         } else {
             //登录失败，重新登录
             return "redirect:/";
-        }
+         }
     }
 
 
