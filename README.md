@@ -20,6 +20,8 @@ https://www.h2database.com/html/main.html h2数据库官网
 
 https://docs.spring.io/spring-boot/docs/2.5.3/reference/htmlsingle/#features.sql.datasource.embedded Spring Boot 文档
 
+https://flywaydb.org/ flyway官网
+
 ## 使用工具
 
 https://git-scm.com/download git下载地址
