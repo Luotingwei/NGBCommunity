@@ -1,15 +1,13 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>NGB社区</title>
+    <title>发布 - NGB社区</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet"
-          href="/css/bootstrap.min.css"/>
-    <link rel="stylesheet"
-          href="/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="/css/publish.css"/>
     <script src="/webjars/jquery/1.9.1/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"
-            type="application/javascript"></script>
+    <script src="/js/bootstrap.min.js" type="application/javascript"></script>
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -47,5 +45,42 @@
         </div>
     </div>
 </nav>
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-8 col-sm-12 col-xs-12">
+            <h3>
+                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                发起
+            </h3>
+            <form action="">
+                <div class="form-group">
+                    <label for="topic">帖子标题（简单扼要）</label>
+                    <input type="text" class="form-control" name="topic" id="topic" placeholder="帖子话题......">
+                </div>
+                <div class="form-group">
+                    <label for="detail">帖子内容</label>
+                    <textarea type="text" name="detail" id="detail" class="form-control" rows="6" col="30"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="tag">添加标签:</label>
+                    <input type="text" class="form-control" name="tag" id="tag" placeholder="输入一个或多个标签，用逗号隔开">
+                </div>
+                <button class="btn btn-success" type="submit">确认发起</button>
+            </form>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div>
+                <h3>帖子发起指南</h3>
+            </div>
+            <div>
+                <p><b>• 帖子标题: </b>为您的帖子起个标题吧</p>
+                <p><b>• 描述补充:</b>请畅所欲言吧</p>
+                <p><b>• 选择标签: </b>选择一个或者多个合适的标签，用逗号隔开，每个标签不超过10个字</p>
+            </div>
+
+
+        </div>
+    </div>
+</div>
 </body>
 </html>
